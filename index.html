@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Calender</title>
+          <link rel="stylesheet" href="style.css">
+     </head>
+
+     <body onload="createSelectOption()">
+
+          <div class="container">
+               <select name="" id="select-month">
+
+               </select>
+
+               <select name="" id="select-year">
+
+               </select>
+          </div>
+
+
+          <div class="wrapper">
+               <div class="calender">
+                    <div class="weekends">
+                         <div>Sun</div>
+                         <div>Mon</div>
+                         <div>Tues</div>
+                         <div>Wed</div>
+                         <div>Thru</div>
+                         <div>Friday</div>
+                         <div>Sat</div>
+                    </div>
+                    <ul class="days">
+                    </ul>
+               </div>
+          </div>
+
+          <div class="date-picker">
+               <input type="text" placeholder="Enter a date" id="date_picker">
+               <button id="btn">Enter</button>
+          </div>
+          <script src="./script.js"></script>
+     </body>
+
+</html>
